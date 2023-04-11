@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personajes</title>
+    <!-- =============== IMPORTACION DE BOOTSTRAP ==================
+     -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- ============= MI HOJA DE ESTILOS ================= -->
+    <link rel="stylesheet" href="/css/personajes.css" />
+  </head>
+  <body>
+    <!-- ==============  INICIO BARRA NAVEGACION ========================-->
+    <header class="navbar navbar-expand-lg bg-black fixed-top" id="menu">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"
+          ><img src="../img/logo.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/autor.html">Autor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/influencias.html"
+                >Influencias</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/adaptaciones.html"
+                >Adaptaciones</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Personajes
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a class="dropdown-item" href="../pages/personajes.html#guts"
+                    >Guts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../pages/personajes.html#griffith"
+                    >Griffith</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="../pages/personajes.html#casca"
+                    >Casca</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== FIN BARRA NAVEGACION =============================-->
+
+    <main>
+      <h5 class="container">Personajes</h5>
+
+      <section class="container d-flex row m-auto mb-5" id="guts">
+        <h4
+          class="fs-1 d-flex justify-content-center text-primary border border-primary-subtle border-2 rounded-4"
+        >
+          Guts
+        </h4>
+        <article class="d-flex row">
+          <p class="col-12 col-md-6 text-center align-self-center">
+            "Si uno no es capaz de hacer lo que le plazca con su propia vida,
+            está mejor muerto." Es capaz de hacer lo que sea por su objetivo,
+            sin importar por cuántos peligros pase.
+          </p>
+
+          <img
+            class="img-fluid col-12 col-md-6"
+            src="/img/guts-sonriendo.webp"
+            alt="Guts sonriendo"
+          />
+        </article>
+      </section>
+      <section class="container d-flex row m-auto mb-5" id="griffith">
+        <h4
+          class="fs-1 d-flex justify-content-center text-primary border border-primary-subtle border-2 rounded-4"
+        >
+          Griffith
+        </h4>
+        <article class="d-flex row">
+          <p class="col-12 col-md-6 text-center align-self-center">
+            "En este mundo, existen personas que nacen como llaves que mueven el
+            mundo, al margen de las castas y las clases promulgadas por los
+            propios humanos. Un estamento especial y verdadero, establecido por
+            las inquebrantables leyes del universo. ¡¡Gente con poder divino!!"
+            Incluso cuando era niño, se puede entrever la ambición de Griffith.
+            Es en los callejones de su ciudad de la infancia donde él fija por
+            primera vez sus vistas en obtener su propio reino. Su actitud tiene
+            múltiples facetas durante los primeros años de la Banda del Halcón:
+            a veces despreocupadas y casi infantiles, y otras veces feroces.
+          </p>
+          <img
+            class="img-fluid col-12 col-md-6 m-auto img-griffith"
+            src="/img/griffith-sosteniendo-casco.webp"
+            alt="Griffith sosteniendo un casco"
+          />
+        </article>
+      </section>
+      <section class="container d-flex row m-auto mb-5" id="casca">
+        <h4
+          class="fs-1 d-flex justify-content-center text-primary border border-primary-subtle border-2 rounded-4"
+        >
+          Casca
+        </h4>
+        <article class="d-flex row">
+          <p class="col-12 col-md-6 text-center align-self-center">
+            "Yo sólo quería... empuñar la espada para protegerle." Casca es
+            presentada como una guerrera de carácter fuerte y serio, con total
+            devoción a Griffith. Su lealtad hacia él le hizo querer servir al
+            Halcón como su espada en la búsqueda del sueño de este. Es por ello
+            que siente celos de la admiración de Griffith hacia Guts.
+          </p>
+          <img
+            class="img-fluid col-12 col-md-6"
+            src="/img/casca-a-caballo.webp"
+            alt="
+        Casca a caballo"
+          />
+        </article>
+      </section>
+    </main>
+    <!-- ============================ Inicio Footer ======================== -->
+    <footer class="container d-flex justify-content-evenly">
+      <div class="d-flex flex-column">
+        <h2>Fuentes</h2>
+
+        <a href="https://es.wikipedia.org/wiki/Berserk_(manga)" target="_blank"
+          >Wikipedia</a
+        >
+
+        <a
+          href="https://berserk.fandom.com/es/wiki/Wiki_Berserk"
+          target="_blank"
+          >Berserk Wiki Fandom</a
+        >
+      </div>
+      <div class="d-flex flex-column">
+        <h3>Unete a nuestra comunidad de discord</h3>
+        <a
+          href="https://discord.com/"
+          target="_blank"
+          class="d-flex justify-content-center"
+        >
+          <img src="/img/discord-img.png" alt="dircord logo" class=""
+        /></a>
+      </div>
+    </footer>
+    <!-- =================================== Fin footer ======================================= -->
+
+    <!-- =====================  IMPORTACION JS DE BOOTSTRAP ================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ====================== FIN IMPORTACION JS BOOSTRAP ==================== -->
+  </body>
+</html>
