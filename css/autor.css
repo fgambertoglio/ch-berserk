@@ -1,5 +1,9 @@
 body {
   background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  margin-top: 150px;
 }
 
 /* =============================== INICIO BARRA NAVEGACION =================== */
@@ -25,7 +29,31 @@ nav ul li {
   border-width: 3px;
 }
 /* ============================== FIN BARRA NAVEGACION ================== */
+/* ============================== INICIO FOOTER ================================ */
 
-.separacion-nav {
-  margin-top: 150px;
+footer a img {
+  max-width: 100px;
 }
+
+h2 {
+  color: brown;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: #bd8e0d;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.959);
+}
+footer a {
+  color: red;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+footer a:hover {
+  color: blue;
+}
+
+/* ============================== FIN FOOTER ================================ */
