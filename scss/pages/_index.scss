@@ -1,0 +1,26 @@
+.body-index {
+  background-color: black;
+}
+
+.img-guts-index {
+  max-width: 500px;
+}
+
+.hero-img {
+  display: flex;
+  margin: auto;
+  margin-top: 250px;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+/* ======================= INICIO MEDIA QUERIES =================== */
+
+@media (max-width: 768px) {
+  .hero-img {
+    width: 100% !important;
+  }
+}

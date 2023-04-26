@@ -1,0 +1,22 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.959);
+  a {
+    color: red;
+    font-size: 1.5em;
+    text-decoration: none;
+    &:hover {
+      color: blue;
+    }
+    img {
+      max-width: 100px;
+    }
+  }
+  h2 {
+    color: brown;
+    font-size: 2.5em;
+  }
+
+  h3 {
+    color: #bd8e0d;
+  }
+}
